@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MAGWAR-LITE INDUSTRIAL</title>
+	<link rel="stylesheet" type="text/css" href="styles/button_huerotate.css">
+	<link rel="stylesheet" type="text/css" href="styles/links.css">
+	<link rel="stylesheet" type="text/css" href="styles/mainformat.css">
+	<script src="styles/index.js">
+	</script>
+
+
+
+</head>
+
+
+
+
+<body class="mainformat">
+
+		
+		
+	<font color="darkblue">
+		<center>
+			<h1>
+				<div class="magwarheader">
+			
+					
+				
+							<em>美国 MAGWAR 美国</em> 
+						<br>	
+							<p style="font-size: 34px;" ><em> INDUSTRIAL REPAIR </em> </p>
+
+
+					
+				</div>
+			</h1>
+		
+		<h2> 
+			<em> INDUSTRIAL REPAIR AND MAINTENANCE SERVICES </em> 
+		</h2>
+
+		<h3> 
+			<em> Matthew Marlow </em> 
+		</h3>
+		
+
+		<button id="contactButton" class="contact-button" onclick="increaseSizeBy1px()"> 
+			Contact Now!
+		</button>
+
+<p id="TextLetterSizeChangeID">
+		<b><em>Call Now! 682-372-6963</em></b>
+
+</p>
+
+
+
+    
+        
+    <script> 
+    // extracting the current font-size, we'll get the value with word px, e.g. 16px
+    
+            let fontSizeCurr = window.getComputedStyle(TextLetterSizeChangeID, null).getPropertyValue('font-size');
+    
+    // with this we'll get rid of px; with pure number, math ops possible
+    
+            let fontSizeCurrPars = parseInt(fontSizeCurr);
+    
+            function increaseSizeBy1px() 
+            {
+                fontSizeCurrPars+=9;
+                document.getElementById('TextLetterSizeChangeID').style.fontSize = 
+                fontSizeCurrPars + "px";  
+    // I needed to add + "px", otherwise it was not recognising new font size
+    // e.g., it was just 16, and fontSize requires "px" to recognize, e.g. 16px
+            }
+    
+       
+    
+    </script>
+
+
+<b> Specializing in repair and maintenance for the following industries</b>
+<br>
+<div class="tooltip-container">
+hover over me
+<span class="tooltip-text"> This is a custom css tool tip</span>
+</div>
+<table class="table1" 
+		width="900" 
+		border="10" 
+		cellpadding="3"
+	>
+	<tr>
+		<th colspan="4"> Industries and Applications </th>
+	</tr>
+	<tr>
+		<th> <a href="https://www.youtube.com/"> Fabrications </a></th>
+		<th>Restaurants</th>
+		<th>Retailers</th>
+		<th>Homes</th>
+	</tr>
+
+	</tr>
+	<tr>
+		<td>Hand Tools</td>
+		<td colspan="3"><center>Appliances <em>Repair and Installation!</em></center></td>
+		
+	</tr>
+	
+	<tr>
+		<td>Stationary Tools</td>
+		<td colspan="3"><center>Doors</center></td>
+		
+
+	</tr>
+	<tr>
+		<td><em>Sawstops!</em></td>
+		<td colspan="3"><center><a href="shelving.html"> Shelving </a>/ Picture Hanging</center></td>
+	</tr>
+	<tr>
+		<td>Air Compressors</td>
+		<td colspan="3"><a href="lightinginstall.html"><center>Lighting/<strong>Outlets</strong></center></a></td>
+
+	</tr>
+	<tr>
+		<td>Dust Collectors</td>
+		<td colspan="3"><center>Leaks, Faucets, Toilets!</center></td>	
+	</tr>
+		<td>Variable Frequency Drives /<a href="heater.html"> Electric Troubleshooting</a></td>
+		<td colspan="3"><center><a href="carpentry.html">Carpentry/New Construction/Furniture</a></center></td>
+	</tr>
+	<tr>
+		<td><a href="equipment_installation.html">Equipment Installation </a>/<a href="millwright_Services.html"> Millwright Services</a></td>
+		<td colspan="3"><center>Window Cleaning</center></td>
+	</tr>
+	<tr>
+		<td> Professional Art Handling Services </td>
+		<td colspan="3"><center>Table Leveling / Cabinets Doors & Drawers <em>you might need it</em></center></td>
+	</tr>
+	<tr>
+		<td colspan="4"><center>Networking / IT Support / Powerful Dynamic Spreadsheets</center></td>
+	</tr>
+	<tr>
+		<td colspan="4"><center>Low Voltage / Security Camera Installation and Maintenance</center></td>
+	<tr>
+		<td colspan="4"><center>Roll Gate/Keyless Entry</center></td>
+	</tr>
+
+
+</table>
+<br>
+<br>
+<br>
+
+<img src="businessphoto/coolpic.jpg" width="320" height="428">
+
+
+<br>
+
+
+	</font>
+	</center>
+	
+</body>
+</html>
