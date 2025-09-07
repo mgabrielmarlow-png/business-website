@@ -48,6 +48,11 @@
         opacity: 1;
     }
 
+.tableFormat{
+		 overflow-x: auto;
+	
+}
+
 
   
 
@@ -66,3 +71,4 @@
       cursor: pointer;
       background-image: url(businessphoto/electrical.jpg);
     })*/
+
